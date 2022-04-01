@@ -1,18 +1,18 @@
 import streamlit.components.v1 as components  # Import Streamlit
 import streamlit as st
 
-st.title('Web VR Code Generator')
-st.write('Click VR to go to VR space and scroll down to see generated code :)')
+st.title('Web VRの世界を生成します')
+st.write('「VR生成」ボタンを押して VRの世界に行ってみましょう')
 
 col1, col2, col3 = st.columns((1,1,2))
 
 Options = ["a-box","a-sphere","a-cylinder","a-plane","a-cone","a-torus-knot","a-ring","a-dodecahedron","a-icosahedron"]
-choose = st.sidebar.selectbox("Pick a primitive:", Options)
+choose = st.sidebar.selectbox("オブジェクトを選んで下さい:", Options)
 
-Options2 = [" ","ambient","point"]
+Options2 = ["ambient","ambient","point"]
 choose2 = st.sidebar.selectbox("Want some lights:", Options2)
 
-Options3 = [" ","egypt","forest","goaland","yavapai","goldmine","threetowers","poison","arches"]
+Options3 = ["egypt","egypt","forest","goaland","yavapai","goldmine","threetowers","poison","arches"]
 choose3 = st.sidebar.selectbox("Choose Environment:", Options3)
 
 Options4 = ["no","yes"]
