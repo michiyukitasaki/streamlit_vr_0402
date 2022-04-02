@@ -19,7 +19,6 @@ The app interface:
 ![Image](https://github.com/jojo96/WebVRCodeGenerator/blob/main/Images/appScreenshot.png)
 
 Some of the various supported [primitives](https://aframe.io/docs/1.2.0/introduction/) are:
-
 - a-box
 - a-sphere
 - a-ring
